@@ -13,7 +13,7 @@ for _ in range(T):
     K = int(sys.stdin.readline().strip()) # k층
     N = int(sys.stdin.readline().strip()) # n호
 
-    # 0층의 사람들
+    # 1층의 사람들
     DP = [i for i in range(1,N+1)]
     
     for _ in range(K): # k층까지 반복
