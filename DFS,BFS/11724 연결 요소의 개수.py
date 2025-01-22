@@ -15,7 +15,8 @@
         첫째 줄에 연결 요소의 개수를 출력한다.
 '''
 import sys
-sys.setrecursionlimit(10**6)
+sys.setrecursionlimit(10**6) # 파이썬은 재귀함수 깊이에 대한 제한이 있어 제한을 풀어줘야한다.
+
 N, M = map(int, sys.stdin.readline().strip().split())
 
 cycle_list = [False for _ in range(N+1)] 
